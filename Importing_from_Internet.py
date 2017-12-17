@@ -63,7 +63,7 @@ response = urlopen(request)
 # Print the datatype of response
 print(type(response))
 # Be polite and close the response!
-response.close()
+response.close() 
 
 # ---------------------------------------------------------------------------------------
 # Printing HTTP request results in Python using urllib
